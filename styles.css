@@ -1,0 +1,33 @@
+body {
+    /* padding: 100 px; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#dieCon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.die {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background:lightgray;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 75px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
